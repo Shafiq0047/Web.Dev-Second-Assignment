@@ -190,12 +190,12 @@
           </ul>
         </div>
       </section>
-      <section class="max-w-[1140px] m-auto mt-[120px]">
+      <section class="max-w-[1140px] m-auto mt-[120px] px-4">
         <div class="flex flex-col justify-center items-center">
-          <h3 class="noto-serif-font text-[50px] font-bold">
+          <h3 class="noto-serif-font text-[32px] md:text-[50px] font-bold">
             <span class="text-[#E95A08]">Latest </span> Deals
           </h3>
-          <p class="inter-font text-[22px] text-black/50 mt-[30px] text-center">
+          <p class="inter-font text-[22px] text-black/50 mt-[20px] md:mt-[30px] text-center">
             Indulge your senses with the beauty and fragrance of our fresh
             flower shop. <br />
             From classic roses to exotic blooms, we offer a wide variety of
@@ -204,37 +204,25 @@
         </div>
         <!-- Main container -->
         <div
-          class="mt-[120px] grid grid-cols-[30%_70%] gap-7 max-w-[1140px] mx-auto w-full"
-        >
+          class="mt-[50px] md:mt-[120px] grid grid-cols-[100%] md:grid-cols-[30%_70%] gap-7 max-w-[1140px] mx-auto w-full">
           <!-- left side box -->
           <div class="grid grid-cols-1 gap-[25px]">
             <!-- Left Image Card -->
             <div class="relative">
-              <img
-                class="rounded-2xl w-full object-cover h-full"
-                src="./assets/deal-bloom.png"
-                alt=""
-              />
-              <div
-                class="absolute inset-0 flex flex-col items-center justify-center text-white bg-[rgba(0,0,0,0.3)] rounded-2xl"
-              >
+              <img class="rounded-2xl w-full object-cover h-full" src="./assets/deal-bloom.png" alt=""/>
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-white bg-[rgba(0,0,0,0.3)] rounded-2xl">
                 <p class="noto-serif-font text-[20px] font-bold">
                   60% Off | Bloom Plant
                 </p>
                 <button
-                  class="font-semibold inter-font underline decoration-solid"
-                >
+                  class="font-semibold inter-font underline decoration-solid">
                   Shop Now
                 </button>
               </div>
             </div>
 
             <div class="relative overflow-hidden">
-              <img
-                class="rounded-2xl w-full object-cover h-full"
-                src="./assets/deal-ana.png"
-                alt=""
-              />
+              <img class="rounded-2xl w-full object-cover h-full" src="./assets/deal-ana.png" alt=""/>
               <div
                 class="absolute inset-0 flex flex-col items-center justify-center text-white bg-[rgba(0,0,0,0.3)] rounded-2xl"
               >
@@ -253,16 +241,15 @@
           <div
             class="relative w-full overflow-hidden max-w-[755px] max-h-[425px] rounded-2xl"
           >
-            <img
-              class="w-full h-auto object-cover"
-              src="./assets/deal-zabo.png"
-              alt=""
-            />
+            <img class="w-full h-auto object-cover" src="./assets/deal-zabo.png" alt=""/>
             <div
-              class="absolute inset-0 flex items-center justify-center text-white bg-[rgba(0,0,0,0.3)]"
+              class="absolute inset-0 flex flex-col items-center justify-center text-white bg-[rgba(0,0,0,0.3)]"
             >
+            <p class="noto-serif-font text-[20px] md:text-[40px] font-bold">
+                25% Off | Zabo Plant
+            </p>
               <button
-                class="font-semibold inter-font underline decoration-solid translate-y-15 inter-font text-[28px]"
+                class="font-semibold inter-font underline decoration-solid translate-y-15 inter-font md:text-[28px] -mt-12"
               >
                 Shop Now
               </button>
